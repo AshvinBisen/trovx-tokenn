@@ -235,7 +235,7 @@
                         <div class="inner-box">
                             <div class="icon-box"><span class="icon"><img src="images/partner/2.png" alt=""></span>
                             </div>
-                            <h4>TD Edu Academy</h4>
+                            <h4>The forex educational academy</h4>
                             <div class="text">Dubai-based education with UAE diploma approval in progress.</div>
                         </div>
                     </div>
@@ -494,7 +494,7 @@
                     <div class="sale-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <h4>Tokens available for sale in Round 1</h4>
-                            <div class="text">600,000</div>
+                            <div class="text">60 lac</div>
                         </div>
                     </div>
                     <!--Sale Block-->
@@ -562,7 +562,34 @@
                 </div>
 
             </div>
+
         </section>
+
+          <section class="token-sale" id="token-sale">
+            <div class="bg-circles"><img src="images/resource/circles-2.png" alt=""></div>
+
+              <div class="contract">
+            <div class="section10">
+                 <div class="title-box centered">
+                    <h2>CONTRACT ADDRESS</h2>
+                </div>
+            <div class="s10three">
+                <p id="address" class="s10para new2">
+                0x189B05Acf05f933A27D0072EDc56152459e2613C
+                </p>
+                <div class="tk-button">
+                <button onclick="copyAddress()" id="copyButton" class="s02button">
+                    <p class="text">COPY ADDRESS</p>
+                </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+
+
+
+
 
         <!--Roadmap Section-->
         <section class="roadmap-section" id="roadmap">
@@ -856,6 +883,18 @@
     <script src="js/appear.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/custom-script.js"></script>
+
+
+    <script>
+    function copyAddress() {
+      const contractAddress = "0x189B05Acf05f933A27D0072EDc56152459e2613C";
+      navigator.clipboard.writeText(contractAddress).then(() => {
+        alert("Contract Address copied");
+      });
+    }
+  </script>
+
+
 </body>
 
 </html>
