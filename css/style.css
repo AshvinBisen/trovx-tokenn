@@ -17927,7 +17927,6 @@ body.home-nine .scroll-to-top img{
     
     .section10 {
         padding: 10px ;
-        width: 300px;
     }
 
     .s10head {
@@ -17935,8 +17934,9 @@ body.home-nine .scroll-to-top img{
     }
 
     .new2 {
-        font-size: 15px;
-        padding: 0;
+        font-size: 14px;
+        
+      padding: 5px;
     }
 
     .s02button {
@@ -17953,11 +17953,11 @@ body.home-nine .scroll-to-top img{
 @media (max-width: 340px) {
     .section10 {
         padding: 10px ;
-        width: 260px;
     }
 
     .new2 {
-        font-size: 13px;
+      padding: 5px;
+        font-size: 12px;
     }
 }
     
