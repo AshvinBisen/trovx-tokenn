@@ -160,9 +160,9 @@
       }
 }
 
+/* .faqs-section .image-col .image, */
 
-/* .banner-six .upper-content .image-col .image,
-.faqs-section .image-col .image,
+.banner-six .upper-content .image-col .image,
 .intro-section .image-col .image{
     animation-name: rotateme; 
     animation-duration: 15s; 
@@ -188,7 +188,7 @@
     -o-animation-duration: 15s; 
     -o-animation-iteration-count: infinite;
     -o-animation-timing-function: linear;
-} */
+}
 
 @keyframes rotateme2 {
     

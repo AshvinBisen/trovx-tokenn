@@ -2762,6 +2762,7 @@ body.visible-sidebar{
 .why-block .icon-box img{
     position: relative;
     max-height: 80px;
+    border-radius: 10px;
 }
 
 .why-block h4{
@@ -3313,6 +3314,7 @@ body.visible-sidebar{
   background: #201F3A;
   text-align: center;
   min-height: 100%;
+  min-height: 220px;
   border-radius: 12px;
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
