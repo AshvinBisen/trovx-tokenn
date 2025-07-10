@@ -3785,7 +3785,7 @@ body.visible-sidebar{
 .faqs-section .image-col .image{
   position: absolute;
   left: 0;
-  top: -50px;
+  /* top: -50px; */
 }
 
 .faqs-section .image-col .image img{
